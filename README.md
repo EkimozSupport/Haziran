@@ -1,7 +1,7 @@
 <h1 align="centre">RythmMusiqi V2.0 🎵</h1>
 
 ### Telegram Qruplarında və Kanal Səsli Söhbetlerinde musiqi oxuya bilən bir bot
-#### Sahiblə Əlaqə [@HusnuEhedov](t.me/husnuehedov)
+#### Sahiblə Əlaqə [@EkimozSahip](t.me/EkimozSahip)
 
 <p align="center">
   <img src="https://telegra.ph/file/831231d8522f9a1c0d04d.jpg">
@@ -10,9 +10,9 @@
 
 ### 💜 Herokuya Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sirincay2/RythmMusiqiV2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EkimozSupport/Haziran)
 
-String üçün botdan istifadə edin [@genStr_robot](https://t.me/@genStr_robot)
+String üçün botdan istifadə edin [@HaziranMuzikBot](https://t.me/@HaziranMuzikBot)
 
 ### ⚔ Servere bağlama
 ```sh
