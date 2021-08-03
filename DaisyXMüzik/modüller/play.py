@@ -62,7 +62,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("İcazə vermirəm :/\n@SirinCayBoss", show_alert=True)
+            await cb.answer("İcazə vermirəm :/\n@EkimozSahip", show_alert=True)
             return
 
     return decorator
@@ -149,7 +149,7 @@ async def playlist(client, message):
     temp.pop(0)
     if temp:
         msg += "\n\n"
-        msg += "**Sıradakı Mahnı**"
+        msg += "**Sıradakı Şarkı**"
         for song in temp:
             name = song[0]
             usr = song[1].mention(style="md")
@@ -205,7 +205,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("Bu söhbətdə çalışan VC nümunəsi yoxdur")
+        await message.reply("Bu Grupta çalan müzik yoktur")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
@@ -447,7 +447,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                        f"<b>🔴 Flood Xətası 🔴 \nİstifadəçi {user.first_name} Grupunuza qatıla bilmədi bunu səbəbi Asistan bir çox qurupda olması və ya adminlərdən biri onu grupda banladı"
-                        "\n\nVə ya @AzRobotGroup support grupundan dəstək istəyin</b>",
+                        "\n\nVə ya @Ekimozsupport grupundan dəstək istəyin</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -459,7 +459,7 @@ async def play(_, message: Message):
         return
     message.from_user.id
     message.from_user.first_name
-    await lel.edit("🔎 **Axtarlır**")
+    await lel.edit("🔎 **Calıyoruz**")
     message.from_user.id
     user_id = message.from_user.id
     message.from_user.first_name
@@ -473,7 +473,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ {DURATION_LIMIT} dəqiqədən uzun mahnıları oxumaq üçün icazəm yoxdur!"
+                f"❌ {DURATION_LIMIT} Bu şarkıyı dinlemeye ömür yetmez Azer Baba şöyle dardayım!"
             )
         keyboard = InlineKeyboardMarkup(
             [
